@@ -1,0 +1,518 @@
+220 (vsFTPd 3.0.5)
+USER evarocks
+331 Please specify the password.
+PASS 135792468
+230 Login successful.
+SYST
+215 UNIX Type: L8
+FEAT
+211-Features:
+ EPRT
+ EPSV
+ MDTM
+ PASV
+ REST STREAM
+ SIZE
+ TVFS
+211 End
+EPSV
+229 Entering Extended Passive Mode (|||65249|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||56397|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD Desktop
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||8049|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||51325|)
+NLST 1706.03762.pdf
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE 1706.03762.pdf
+213 2215244
+EPSV
+229 Entering Extended Passive Mode (|||24101|)
+RETR 1706.03762.pdf
+150 Opening BINARY mode data connection for 1706.03762.pdf (2215244 bytes).
+226 Transfer complete.
+MDTM 1706.03762.pdf
+213 20231011233432
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||35844|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||9688|)
+NLST email.txt
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE email.txt
+213 1076
+EPSV
+229 Entering Extended Passive Mode (|||44758|)
+RETR email.txt
+150 Opening BINARY mode data connection for email.txt (1076 bytes).
+226 Transfer complete.
+MDTM email.txt
+213 20231013131702
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||54892|)
+NLST movies.txt
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE movies.txt
+213 1422
+EPSV
+229 Entering Extended Passive Mode (|||5696|)
+RETR movies.txt
+150 Opening BINARY mode data connection for movies.txt (1422 bytes).
+226 Transfer complete.
+MDTM movies.txt
+213 20231011233432
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||21172|)
+NLST whiskers.jpg
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE whiskers.jpg
+213 57202
+EPSV
+229 Entering Extended Passive Mode (|||28599|)
+RETR whiskers.jpg
+150 Opening BINARY mode data connection for whiskers.jpg (57202 bytes).
+226 Transfer complete.
+MDTM whiskers.jpg
+213 20231011233432
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||48831|)
+NLST vault.txt
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE vault.txt
+213 1080
+EPSV
+229 Entering Extended Passive Mode (|||16601|)
+RETR vault.txt
+150 Opening BINARY mode data connection for vault.txt (1080 bytes).
+226 Transfer complete.
+MDTM vault.txt
+213 20231011233432
+CWD ..
+250 Directory successfully changed.
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||11934|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||19512|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD Documents
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||39232|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||64557|)
+NLST Key.txt
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE Key.txt
+213 28
+EPSV
+229 Entering Extended Passive Mode (|||11077|)
+RETR Key.txt
+150 Opening BINARY mode data connection for Key.txt (28 bytes).
+226 Transfer complete.
+MDTM Key.txt
+213 20231011233432
+CWD ..
+250 Directory successfully changed.
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||58156|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||53240|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD Downloads
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||52729|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||34481|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||33026|)
+NLST 3-punta-cana-getty.jpg
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE 3-punta-cana-getty.jpg
+213 45118
+EPSV
+229 Entering Extended Passive Mode (|||44960|)
+RETR 3-punta-cana-getty.jpg
+150 Opening BINARY mode data connection for 3-punta-cana-getty.jpg (45118 bytes).
+226 Transfer complete.
+MDTM 3-punta-cana-getty.jpg
+213 20231011233432
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||50719|)
+NLST beach-resorts-in-tahiti-royalty-free-image-1655672958.jpg
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE beach-resorts-in-tahiti-royalty-free-image-1655672958.jpg
+213 431533
+EPSV
+229 Entering Extended Passive Mode (|||29323|)
+RETR beach-resorts-in-tahiti-royalty-free-image-1655672958.jpg
+150 Opening BINARY mode data connection for beach-resorts-in-tahiti-royalty-free-image-1655672958.jpg (431533 bytes).
+226 Transfer complete.
+MDTM beach-resorts-in-tahiti-royalty-free-image-1655672958.jpg
+213 20231011233432
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||49605|)
+NLST electron-mail-5.2.1-linux-amd64.deb
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE electron-mail-5.2.1-linux-amd64.deb
+213 92330482
+EPSV
+229 Entering Extended Passive Mode (|||10687|)
+RETR electron-mail-5.2.1-linux-amd64.deb
+150 Opening BINARY mode data connection for electron-mail-5.2.1-linux-amd64.deb (92330482 bytes).
+226 Transfer complete.
+MDTM electron-mail-5.2.1-linux-amd64.deb
+213 20231011153932
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||45028|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||43457|)
+NLST sandals-royal-caribbean-villas-ALLINC0522-3429e86c9d2841b38c7ef9757220ed1c.jpg
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE sandals-royal-caribbean-villas-ALLINC0522-3429e86c9d2841b38c7ef9757220ed1c.jpg
+213 138310
+EPSV
+229 Entering Extended Passive Mode (|||39980|)
+RETR sandals-royal-caribbean-villas-ALLINC0522-3429e86c9d2841b38c7ef9757220ed1c.jpg
+150 Opening BINARY mode data connection for sandals-royal-caribbean-villas-ALLINC0522-3429e86c9d2841b38c7ef9757220ed1c.jpg (138310 bytes).
+226 Transfer complete.
+MDTM sandals-royal-caribbean-villas-ALLINC0522-3429e86c9d2841b38c7ef9757220ed1c.jpg
+213 20231011233432
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||60873|)
+NLST soonTM.jpeg
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE soonTM.jpeg
+213 3971
+EPSV
+229 Entering Extended Passive Mode (|||30986|)
+RETR soonTM.jpeg
+150 Opening BINARY mode data connection for soonTM.jpeg (3971 bytes).
+226 Transfer complete.
+MDTM soonTM.jpeg
+213 20231011233432
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||57099|)
+NLST yoga.ics
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE yoga.ics
+213 1526
+EPSV
+229 Entering Extended Passive Mode (|||24701|)
+RETR yoga.ics
+150 Opening BINARY mode data connection for yoga.ics (1526 bytes).
+226 Transfer complete.
+MDTM yoga.ics
+213 20231011233432
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||48159|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD ..
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||39502|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||44437|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD Desktop
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||64835|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||14588|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD My_target
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||55464|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||46278|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||6895|)
+NLST payback.txt
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE payback.txt
+213 212
+EPSV
+229 Entering Extended Passive Mode (|||59026|)
+RETR payback.txt
+150 Opening BINARY mode data connection for payback.txt (212 bytes).
+226 Transfer complete.
+MDTM payback.txt
+213 20231011233432
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||44050|)
+NLST petition .pdf
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE petition .pdf
+213 73191
+EPSV
+229 Entering Extended Passive Mode (|||17379|)
+RETR petition .pdf
+150 Opening BINARY mode data connection for petition .pdf (73191 bytes).
+226 Transfer complete.
+MDTM petition .pdf
+213 20231011233432
+CWD ..
+250 Directory successfully changed.
+CWD ..
+250 Directory successfully changed.
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||15774|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||23720|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD .config
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||44521|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD electron-mail
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||40502|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||14606|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||19749|)
+NLST database.bin
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE database.bin
+213 154446
+EPSV
+229 Entering Extended Passive Mode (|||26487|)
+RETR database.bin
+150 Opening BINARY mode data connection for database.bin (154446 bytes).
+226 Transfer complete.
+MDTM database.bin
+213 20231011154604
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||5944|)
+NLST settings.bin
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE settings.bin
+213 2557
+EPSV
+229 Entering Extended Passive Mode (|||9038|)
+RETR settings.bin
+150 Opening BINARY mode data connection for settings.bin (2557 bytes).
+226 Transfer complete.
+MDTM settings.bin
+213 20231011154508
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||5585|)
+NLST config.json
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE config.json
+213 2271
+EPSV
+229 Entering Extended Passive Mode (|||12283|)
+RETR config.json
+150 Opening BINARY mode data connection for config.json (2271 bytes).
+226 Transfer complete.
+MDTM config.json
+213 20231011154320
+CWD ..
+250 Directory successfully changed.
+TYPE A
+200 Switching to ASCII mode.
+EPSV
+229 Entering Extended Passive Mode (|||21145|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD ..
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||43987|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD .local/share/Trash
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||53473|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+CWD files
+250 Directory successfully changed.
+EPSV
+229 Entering Extended Passive Mode (|||20727|)
+LIST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||59348|)
+NLST
+150 Here comes the directory listing.
+226 Directory send OK.
+EPSV
+229 Entering Extended Passive Mode (|||63390|)
+NLST Bank_Statement_11092023.png
+150 Here comes the directory listing.
+226 Directory send OK.
+TYPE I
+200 Switching to Binary mode.
+SIZE Bank_Statement_11092023.png
+213 161968
+EPSV
+229 Entering Extended Passive Mode (|||37710|)
+RETR Bank_Statement_11092023.png
+150 Opening BINARY mode data connection for Bank_Statement_11092023.png (161968 bytes).
+226 Transfer complete.
+MDTM Bank_Statement_11092023.png
+213 20231011233432
+QUIT
+221 Goodbye.
